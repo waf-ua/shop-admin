@@ -66,8 +66,7 @@ const EditProduct: React.FC = () => {
           imagesToDelete
         )
       );
-
-      handleGoBack();
+      formik.setSubmitting(false);
     },
   });
 
